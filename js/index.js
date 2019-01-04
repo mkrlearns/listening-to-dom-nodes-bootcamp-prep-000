@@ -5,7 +5,7 @@ function capture(e) {
   if (this.firstChild.style.backgroundColor != '#fff') {
     this.firstChild.style.backgroundColor = '#fff';
   } else {
-    this.firstChild.style.backgroundColor = '#000'
+    this.firstChild.style.backgroundColor = '#000';
   }
 }
 
