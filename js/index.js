@@ -13,9 +13,9 @@ function capture(e) {
 
 for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click', capture, true);
-  if (divs[i].style.backgroundColor != '#fff') {
-    divs[i].style.backgroundColor = '#fff';
-  } else {
-    divs[i].style.backgroundColor = '#000'
-  }
+  // if (divs[i].style.backgroundColor != '#fff') {
+  //   divs[i].style.backgroundColor = '#fff';
+  // } else {
+  //   divs[i].style.backgroundColor = '#000'
+  // }
 }
