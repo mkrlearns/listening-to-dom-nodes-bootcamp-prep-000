@@ -1,5 +1,6 @@
 divs = document.querySelectorAll('div');
 let black;
+console.log('test');
 
 function capture(e) {
   console.log(this.firstChild.nodeValue.trim() + ' captured');
