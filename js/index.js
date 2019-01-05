@@ -4,13 +4,13 @@ console.log('test');
 
 function capture(e) {
   console.log(this.firstChild.nodeValue.trim() + ' captured');
+  if (black) black = false
+  else black = true
   for (let i = 0; i < divs.length; i++) {
     if (black) {
       divs[i].style.backgroundColor = '#fff';
-      black = false
     } else {
       divs[i].style.backgroundColor = '#000';
-      black = true
     }
   }
 }
