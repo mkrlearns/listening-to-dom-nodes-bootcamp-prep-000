@@ -7,7 +7,8 @@ function capture(e) {
     if (black) {
       divs[i].style.backgroundColor = '#fff';
     } else {
-      divs[i].style.backgroundColor = '#000'
+      divs[i].style.backgroundColor = '#000';
+      black = true
     }
   }
 }
