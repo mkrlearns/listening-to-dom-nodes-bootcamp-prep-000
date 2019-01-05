@@ -6,6 +6,7 @@ function capture(e) {
   for (let i = 0; i < divs.length; i++) {
     if (black) {
       divs[i].style.backgroundColor = '#fff';
+      black = false
     } else {
       divs[i].style.backgroundColor = '#000';
       black = true
